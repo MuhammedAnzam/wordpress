@@ -1,0 +1,433 @@
+2024-12-13T10:57:07+00:00 INFO Webhook could not be configured during connect process. PayPal does not allow webhooks where the domain is localhost.
+2024-12-13T10:57:31+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => anzamvalad@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 50.00
+                            [currency_code] => INR
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Vintage Floral Crochet Full Button
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [sku] => 947
+                                    [description] => Product ID: 947
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => GET_FROM_FILE
+            [return_url] => http://localhost/clone/index.php/wc-api/ppcp_checkout_return/?_checkoutnonce=0568f123d1
+            [cancel_url] => http://localhost/clone/index.php/checkout/
+            [brand_name] => 
+        )
+
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [issue] => CURRENCY_NOT_SUPPORTED
+                            [links] => Array
+                                (
+                                )
+
+                            [description] => Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => f819102dc76b5
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CURRENCY_NOT_SUPPORTED
+                            [rel] => information_link
+                        )
+
+                )
+
+        )
+
+)
+2024-12-13T10:57:31+00:00 ERROR Error creating PayPal order. Msg: Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes. Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => anzamvalad@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 50.00
+                            [currency_code] => INR
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Vintage Floral Crochet Full Button
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [sku] => 947
+                                    [description] => Product ID: 947
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => GET_FROM_FILE
+            [return_url] => http://localhost/clone/index.php/wc-api/ppcp_checkout_return/?_checkoutnonce=0568f123d1
+            [cancel_url] => http://localhost/clone/index.php/checkout/
+            [brand_name] => 
+        )
+
+)
+2024-12-13T11:11:42+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => anzamvalad@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 50.00
+                            [currency_code] => INR
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Vintage Floral Crochet Full Button
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [sku] => 947
+                                    [description] => Product ID: 947
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => GET_FROM_FILE
+            [return_url] => http://localhost/clone/index.php/wc-api/ppcp_checkout_return/?_checkoutnonce=0568f123d1
+            [cancel_url] => http://localhost/clone/index.php/checkout/
+            [brand_name] => 
+        )
+
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [issue] => CURRENCY_NOT_SUPPORTED
+                            [links] => Array
+                                (
+                                )
+
+                            [description] => Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => f4443970f790d
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/api/rest/reference/orders/v2/errors/#CURRENCY_NOT_SUPPORTED
+                            [rel] => information_link
+                        )
+
+                )
+
+        )
+
+)
+2024-12-13T11:11:42+00:00 ERROR Error creating PayPal order. Msg: Currency code is not currently supported. Please refer https://developer.paypal.com/docs/integration/direct/rest/currency-codes/ for list of supported currency codes. Params: Array
+(
+    [intent] => CAPTURE
+    [payer] => Array
+        (
+            [name] => Array
+                (
+                    [given_name] => 
+                    [surname] => 
+                )
+
+            [email_address] => anzamvalad@gmail.com
+        )
+
+    [purchase_units] => Array
+        (
+            [0] => Array
+                (
+                    [amount] => Array
+                        (
+                            [value] => 50.00
+                            [currency_code] => INR
+                            [breakdown] => Array
+                                (
+                                    [item_total] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [shipping] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                    [tax_total] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [discount] => Array
+                                        (
+                                            [value] => 0.00
+                                            [currency_code] => INR
+                                        )
+
+                                    [handling] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 0.00
+                                        )
+
+                                )
+
+                        )
+
+                    [items] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Vintage Floral Crochet Full Button
+                                    [quantity] => 1
+                                    [unit_amount] => Array
+                                        (
+                                            [currency_code] => INR
+                                            [value] => 50.00
+                                        )
+
+                                    [sku] => 947
+                                    [description] => Product ID: 947
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [application_context] => Array
+        (
+            [shipping_preference] => GET_FROM_FILE
+            [return_url] => http://localhost/clone/index.php/wc-api/ppcp_checkout_return/?_checkoutnonce=0568f123d1
+            [cancel_url] => http://localhost/clone/index.php/checkout/
+            [brand_name] => 
+        )
+
+)
